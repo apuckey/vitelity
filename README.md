@@ -9,7 +9,11 @@ For information on the objects returned you can either dump the results, or
 refer to the guide on Vitelity's API page.
 
 ## With Composer
-require  "Core3net/vitelity" : "dev-master"
+	require  "Core3net/vitelity" : "dev-master"
+
+Add the following to app/config/app.php under providers
+		'Core3net\Vitelity\VitelityServiceProvider'
+
 
 ## Using the Library
 

@@ -16,8 +16,8 @@ require  "Core3net/vitelity" : "dev-master"
 Set the API username and password by editing the vitelity.php file or you can set 
 the public static variables.
 
-Vitelity::$VITELITY_USERNAME = "API_USERNAME";
-Vitelity::$VITELITY_PASSWORD = "API_PASSWORD";
+	Vitelity::$VITELITY_USERNAME = "API_USERNAME";
+	Vitelity::$VITELITY_PASSWORD = "API_PASSWORD";
 
 ## Example Calls
 To get a list of numbers available in Georgia you would use the following command.
